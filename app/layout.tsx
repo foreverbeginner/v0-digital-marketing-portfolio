@@ -7,6 +7,7 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Suspense } from "react"
+import AnalyticsWrapper from "@/components/analytics-wrapper"
 
 export const metadata: Metadata = {
   title: "Digital Marketing Freelancer | Grow Your Business Online",
@@ -24,9 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>
-          <Navigation />
-          {children}
-          <Footer />
+          <AnalyticsWrapper>
+            <Navigation />
+            {children}
+            <Footer />
+          </AnalyticsWrapper>
         </Suspense>
         <Analytics />
       </body>

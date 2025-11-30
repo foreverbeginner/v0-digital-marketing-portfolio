@@ -23,7 +23,9 @@ export default function ThankYouPage() {
             <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary to-accent">
               <CheckCircle2 className="h-10 w-10 text-primary-foreground" />
             </div>
-            <h1 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl">Thank You!</h1>
+            <h1 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
+              Thank You! Conversion Recorded.
+            </h1>
             <p className="mb-2 text-lg text-muted-foreground">Your message has been received.</p>
             <p className="mb-8 text-muted-foreground leading-relaxed">
               We'll contact you soon to discuss how we can help grow your business.

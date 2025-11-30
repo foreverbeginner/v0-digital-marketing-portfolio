@@ -52,9 +52,9 @@ export default function HomePage() {
               <span>Helping Small Businesses Grow</span>
             </div>
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl">
-              Helping Small Businesses Grow Through{" "}
+              Smart Digital Marketing for{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Smart Digital Marketing
+                Small Businesses
               </span>
             </h1>
             <p className="mb-8 text-lg text-muted-foreground text-pretty leading-relaxed sm:text-xl">
@@ -66,6 +66,25 @@ export default function HomePage() {
               </Button>
               <Button asChild size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
                 <Link href="/portfolio">View Our Work</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border bg-amber-50 dark:bg-amber-950/20 py-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h3 className="mb-4 text-sm font-semibold text-amber-900 dark:text-amber-100">FYP Traffic Simulation</h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Button asChild size="sm" variant="outline">
+                <Link href="/organic">Simulate Organic Visitor</Link>
+              </Button>
+              <Button asChild size="sm" variant="outline">
+                <Link href="/paid">Simulate Paid Visitor</Link>
+              </Button>
+              <Button asChild size="sm" variant="outline">
+                <Link href="/">Direct Traffic (Current)</Link>
               </Button>
             </div>
           </div>
@@ -136,13 +155,13 @@ export default function HomePage() {
       <section className="border-t border-border bg-gradient-to-br from-primary/10 via-accent/10 to-background py-16 sm:py-20">
         <div className="container mx-auto px-4 text-center sm:px-6 lg:px-8">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
-            Want to grow your business online?
+            Ready to grow your business online?
           </h2>
           <p className="mb-8 text-lg text-muted-foreground text-pretty leading-relaxed">
             Let's talk about how we can help you achieve your goals.
           </p>
           <Button asChild size="lg">
-            <Link href="/contact">Contact Us</Link>
+            <Link href="/contact">Get Started Today</Link>
           </Button>
         </div>
       </section>
